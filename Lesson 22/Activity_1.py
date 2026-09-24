@@ -7,7 +7,7 @@ tuplex = (4, 6, 2, 8, 3, 1)
 print(tuplex)
 #tuples are immutable, so you can not add new elements
 #using merge of tuples with the + operator you can add an element and it will create a new tuple
-tuplex = tuplex + (9)
+tuplex = tuplex + (9,)
 print(tuplex)
 
 #Counts the number of occurrences of item 50 from a tuple

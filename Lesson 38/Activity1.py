@@ -102,18 +102,18 @@ while running:
     screen.blit(background, (0, 0))
 
     for event in pygame.event.get():
-      if event.type == pygame.QUIT:
-          running = False
-      if event.type == pygame.KEYDOWN:
-          if event.key == pygame.K_LEFT:
-              playerX_change = -5
-          if event.key == pygame.K_RIGHT:
-              playerX_change = 5
-          if event.key == pygame.K_SPACE and bullet_state == "ready":
-              bulletX = playerX
-              fire_bullet(bulletX, bulletY)
-      if event.type == pygame.KEYUP and event.key in [pygame.K_LEFT, pygame.K_RIGHT]:
-          playerX_change = 0
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_LEFT:
+                playerX_change = -5
+            if event.key == pygame.K_RIGHT:
+                playerX_change = 5
+            if event.key == pygame.K_SPACE and bullet_state == "ready":
+                bulletX = playerX
+                fire_bullet(bulletX, bulletY)
+        if event.type == pygame.KEYUP and event.key in [pygame.K_LEFT, pygame.K_RIGHT]:
+            playerX_change = 0
 
     # Player Movement
     playerX += playerX_change
