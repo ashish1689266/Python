@@ -1,6 +1,10 @@
 # create class
 class Vehicle:
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f8092a95e889da926979689dd06d750a9009209d
 	# create init method
     def __init__(self, max_speed, mileage):
 

@@ -12,4 +12,8 @@ print("hello", 5, "hello", 4,55, 78, sep="😂")
 
 #End argument of Print Statement
 print("welcome to ", end="😁")
+<<<<<<< HEAD
 
+=======
+print()
+>>>>>>> f8092a95e889da926979689dd06d750a9009209d

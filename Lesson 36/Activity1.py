@@ -59,8 +59,12 @@ clock = pygame.time.Clock()
 # Main game loop
 while running: 
     for event in pygame.event.get():
+<<<<<<< HEAD
         if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN
                                          and event.key == pygame.K_x):
+=======
+        if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_x):
+>>>>>>> f8092a95e889da926979689dd06d750a9009209d
             running = False
 
     if not won:

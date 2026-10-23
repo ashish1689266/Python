@@ -10,3 +10,10 @@ r = int(input('Enter the number of rows: '))
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> f8092a95e889da926979689dd06d750a9009209d

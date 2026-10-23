@@ -18,8 +18,13 @@ for i in range(4):
 	for j in range(0, 3):
 		frame = Frame(
 			master=root,
+<<<<<<< HEAD
 			relief=SUNKEN,
 			borderwidth=1
+=======
+			relief=GROOVE,
+			borderwidth=4
+>>>>>>> f8092a95e889da926979689dd06d750a9009209d
 		)
 		frame.grid(row=i, column=j)
 		label = Label(master=frame, text=nums[i][j], bg='#d0efff')
