@@ -9,7 +9,7 @@ print(numbers)
 # Use * operator
 triples = [1, 2, 3] * 3
 print(triples)
-
+print()
 #reverse the given list
 aList = [100, 200, 300, 400, 500]
 aList = aList[::-1]
